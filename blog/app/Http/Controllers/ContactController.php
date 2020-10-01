@@ -24,3 +24,4 @@ class ContactController extends Controller
         return view('messages', ['data' => Contact::all()]);
     }
 }
+

@@ -66,8 +66,7 @@
         downButton.onclick = function() {
             window.scrollTo(0, 1000000000);
         };
-
-
+        
     </script>
 </body>
 </html>

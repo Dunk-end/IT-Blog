@@ -7,10 +7,11 @@
 
     <form class="container">
         <div class="product">
-            <img src="https://lh3.googleusercontent.com/proxy/8XvHiKdVxFXvdowuvzISW3QukLuR0SieNY8aLtGyY-gcp2wG5G9ZbMIRtPPmbMbeB7CHOb-95RzzIHMuHcVcN5eNKWodmAio6aJQoIFu4xqHX76KPEp9OQPBpmQq6MxzFA" width="300" height="200" alt="">
+            <img src="https://obustroeno.com/wp-content/uploads/takaya-krovat-sdelaet-neobychnym-lyuboy-interer.jpg" width="500" height="300">
 
             <p>Высота = 22.5см</p>
             <p>Выдерживает нагрузку до 400кг</p>
+            <a href="{{ route('products') }}"><button class="back" type="button">Назад</button></a>
             <button class="buy" type="button">Купить за 15990р</button>
 
         </div>

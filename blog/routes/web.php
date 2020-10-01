@@ -25,6 +25,14 @@ Route::get('/reg/', function () {
     return view('reg');
 })->name('reg');
 
+Route::post('check', function () {
+    return view('check');
+})->name('check');
+
+Route::post('auth', function () {
+    return view('auth');
+})->name('auth');
+
 Route::get('/entrance/', function () {
     return view('entrance');
 })->name('entrance');

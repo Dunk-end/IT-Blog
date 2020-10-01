@@ -23,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/resources/views/check.blade.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/finder" />
@@ -139,6 +142,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -149,6 +153,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -190,7 +195,14 @@
       <workItem from="1601069896951" duration="19204000" />
       <workItem from="1601290879118" duration="1306000" />
       <workItem from="1601391572041" duration="4196000" />
-      <workItem from="1601396267314" duration="16543000" />
+      <workItem from="1601396267314" duration="19783000" />
+      <workItem from="1601494837007" duration="8594000" />
+      <workItem from="1601570347763" duration="13318000" />
+      <workItem from="1601583790695" duration="124000" />
+      <workItem from="1601584317832" duration="3232000" />
+      <workItem from="1601593774268" duration="3000" />
+      <workItem from="1601594440901" duration="204000" />
+      <workItem from="1601594921053" duration="1050000" />
     </task>
     <servers />
   </component>
@@ -214,18 +226,42 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="426" y="108" key="#Inspections/1600.-76.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1601393987734" />
+    <state x="176" y="271" key="#SQL_Dialects" timestamp="1601582247837">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="176" y="271" key="#SQL_Dialects/1600.-76.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1601582247837" />
+    <state x="567" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601583734298">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="567" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.-76.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1601583734298" />
     <state x="541" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600798143504">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="541" y="232" key="#com.intellij.fileTypes.FileTypeChooser/1600.-76.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1600798143504" />
-    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600884106760">
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601571501795">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1600.-76.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1600884106760" />
-    <state x="546" y="153" key="NewPhpClassDialog" timestamp="1601131843923">
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1600.-76.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1601571501795" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1601574849351">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="546" y="153" key="NewPhpClassDialog/1600.-76.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1601131843923" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter/1600.-76.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1601574849351" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1601574826504">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/1600.-76.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1601574826504" />
+    <state x="546" y="153" key="NewPhpClassDialog" timestamp="1601571792802">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="546" y="153" key="NewPhpClassDialog/1600.-76.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1601571792802" />
+    <state x="634" y="353" key="NewPhpFileDialog" timestamp="1601571801464">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="634" y="353" key="NewPhpFileDialog/1600.-76.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1601571801464" />
+    <state x="301" y="75" key="SettingsEditor" timestamp="1601583615707">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="75" key="SettingsEditor/1600.-76.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1601583615707" />
     <state x="0" y="0" width="1184" height="597" key="dock-window-1" timestamp="1600455372172">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
