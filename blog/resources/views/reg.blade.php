@@ -20,8 +20,10 @@
         <div class="form-group">
             <label for="password">Придумайте пароль</label>
             <input type="password" placeholder="Введите пароль" id="password" name="password" class="form-control" required>
+            <label id="passwordText">
             <input type="checkbox" id="togglePassword">
-            <label id="passwordText">Показать пароль</label>
+            Показать пароль
+            </label>
         </div>
 
         <button  class="p-2 text-white btn btn-success" type="submit">Зарегистрироваться</button>
